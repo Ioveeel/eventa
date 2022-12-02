@@ -1,0 +1,119 @@
+/* html {
+    font-size: 62.5%;
+    font-family: "Big Shoulders Display";
+  } */
+  
+  .main-section {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    height: 64rem;
+    overflow: hidden;
+    font-size: 20px;
+    /* font-size: 62.5%;
+    font-family: "Big Shoulders Display"; */
+  }
+  
+  .main-container-left {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background-image: url('./assets/Fabrica.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .left-content{
+    padding-top: 13rem;
+  }
+  .right-content{
+    padding-top: 13rem;
+  }
+  .main-container-right {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background-image: url('./assets/photo.png');
+    background-size: cover;
+  }
+  
+  .events-right {
+    text-transform: uppercase;
+    padding-top: 5rem;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+  }
+
+.events-p-right {
+  padding-top: 2rem;
+  
+  color: #fff;
+}
+.events-left {
+  text-transform: uppercase;
+  padding-top: 5rem;
+  color: #fff;
+  text-align: center;
+    font-weight: 400;
+  }
+  
+  .events-p-left {
+    text-shadow: 10rem;
+    padding-top: 2rem;
+    
+    color: #fff;
+  }
+  
+  .btn-div {
+    padding-top: 3rem;
+  }
+  
+  .btn {
+    padding: 1.6rem 5rem;
+    border: none;
+    border-radius: 10rem;
+    cursor: pointer;
+  }
+  
+  .btn-a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.6rem;
+  }
+  
+  /* FOOTER */
+  
+  .signup-container {
+    padding: 5rem 4.6rem;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 100%;
+    height: 42.6rem;
+    background-color: black;
+  }
+  
+  .payments-container {
+    max-width: 15rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-copyright {
+    /* margin-top: 35rem;
+    margin-left: -12rem; */
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  .sign-up {
+    position: relative;
+    margin-left: 10rem;
+  }
